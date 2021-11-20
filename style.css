@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins";
+}
+h1{
+	font-size: 3em;
+	border-bottom: 2px solid #000;
+	width: 400px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	-moz-box-shadow: 4px 4px #888888;
+	-webkit-box-shadow: 4px 4px #888888;
+	-o-box-shadow: 4px 4px #888888 ;
+	-ms-box-shadow: 4px 4px #888888;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img{
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+.robot{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	transition: all 1s;
+}
+
+.head{
+	width: 200px;
+	border:90px solid black;
+	height: 0px;
+	border-radius: 400px 400px 0 0;
+	margin-bottom: 100px;
+	transition: all 0.5s;
+}
+
+.eye{
+	text-align: center;
+	border: 10px solid red;
+	border-radius: 50%;
+	justify-content: center;
+	margin: 25px;
+}
+.eye:hover{
+	padding-left: 30px;
+}
+
+.head:hover{
+	transform: scale(1.1);
+	text-align: left;
+}
+.body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.bd{
+	margin-top: -90px;
+	margin-bottom: 100px;
+	border: 190px solid black;
+	width: 0px;
+	height: 0px;
+	border-radius: 0 0 90px 90px;
+}
+.footer-body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: safe center;
+	text-align: center;
+	margin-left: 60px;
+}
+.footer{
+	margin-top: -100px;
+	margin-right: 70px;
+	border: 30px solid black;
+	border-radius: 0 0 60px 60px;
+	margin-bottom: 20px;
+	/*transition: all 0.8s;*/
+}
+.footer:hover:first-child{
+	transform: skewX(-40deg);
+}
+.hand-body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+.hand{
+	border: 50px solid black;
+	margin-top: -480px;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-right: 200px;
+	margin-left: 200px;
+	width: 0px;
+	height: 100px;
+}
+
+.author{
+	margin-left: 600px;
+	text-align: center;
+	display: grid;
+	border-bottom: 1px solid black;
+	width: 200px;
+	margin-bottom: 19px;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
